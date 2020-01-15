@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Магазин</title>
+</head>
+<body> 
+    <header class = "main-header">
+        <nav class = "main-navigation">
+            <a class = "main-header-logo" href="index.html">
+                <img src= "Ubisoft_logo.svg" width="100" height="100" alt="Логотип Барбершопа Бородинский"</a>
+                <ul class= "site-navigation">
+                    <li><a href= "info.html">Информация</a></li>
+                    <li><a href= "news.html">Новости</a></li>
+                    <li><a href="price.html">Прайс</a></li>
+                    <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
+                </ul >
+                <ul class="user-navigation">
+                    <li class="login-link">Вход</li>
+                </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="page-title">СРЕДСТВА ДЛЯ УХОДА</h1>
+        <ul class="breadcrumbs">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a class="breadcrumbs-current">Средства для ухода</a></li>
+        </ul>
+        <section class="filters">
+            <h2 class="visually-hidden">Фильтр товаров</h2>
+            <!--МЕСТО ДЛЯ ФОРМЫ-->
+        </section>
+        <section class="catalog">
+            <h2 class="visually-hidden">Список товаров для ухода</h2>
+            <ul class="catalog-list">
+                <li class="catalog-item">
+                    <h3>
+                        <a href=catalog-item.html">
+                            <span>Набор для путешествий</span>
+                            <span>"Baxter of California"</span>
+                        </a>
+                    </h3>
+                    <p>
+                        <a href="catalog-item.html">
+                        <img src="item1.jpg" width="220px" height="165px"
+                        alt="Набор для путешествий Baxter of California">
+                        </a>
+                    </p>
+                    <p>
+                        <b>2900 руб.</b>
+                        <a href="#">Купить</a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a href=catalog-item.html">
+                            <span>Увлажняющий кондиционер</span>
+                            <span>"Baxter of California"</span>
+                        </a>
+                    </h3>
+                    <p>
+                        <a href="catalog-item.html">
+                        <img src="item2.jpg" width="200px" height="165px"
+                        alt="Увлажняющий кондиционер Baxter of California">
+                        </a>
+                    </p>
+                    <p>
+                        <b>2900 руб.</b>
+                        <a href="#">Купить</a>
+                    </p>
+                </li>
+                <li class="catalog-item">
+                    <h3>
+                        <a href=catalog-item.html">
+                            <span>Гель для волос</span>
+                            <span>"SUAVECITO"</span>
+                        </a>
+                    </h3>
+                    <p>
+                        <a href="catalog-item.html">
+                        <img src="item3.jpg" width="220px" height="165px"
+                        alt="Гель для волос SUAVECITO">
+                        </a>
+                    </p>
+                    <p>
+                        <b>2900 руб.</b>
+                        <a href="#">Купить</a>
+                    </p>
+                </li>
+            </ul>
+            <ul class="pagination">
+                <li class="pagination-item"><a href="#">1</a></li>
+                <li class="pagination-item pagination-item-current"><a href="#">2</a></li>
+                <li class="pagination-item"><a href="#">3</a></li>
+                <li class="pagination-item"><a href="#">4</a></li>
+                
+            </ul>
+        </section> 
+    </main>
+    <footer class="main-footer">
+        <p>
+            Барбершоп "Бородинский"<br>
+                Адрес: Московское Шоссе 77<br>
+                <a href="map.html">Как нас найти?</a><br>
+                Телефон: +7 (999) 228 14 88
+        </p>
+        <div class="footer-social">
+            <b>Давайте дружить!</b>
+            <ul>
+            <li><a class="social-button" href="#">ВК</a></li>
+            <li><a class="social-button" href="#">ФБ</a></li>
+            <li><a class="social-button" href="#">ИНСТ</a></li>
+            </ul>
+        </div>
+        <p class="footer-copyright">
+            <b>Разработал:</b>
+            <a class="button" href="https://vk.com/id102024196">Алёша</a>
+        </p>
+    </footer>
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Здесь введите логин и пароль</p>
+        <!--место для формы-->
+        <span class="modal-close">#</span>
+    </section>
+    </body>
+    </html>
